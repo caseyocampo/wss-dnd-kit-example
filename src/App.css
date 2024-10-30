@@ -1,0 +1,49 @@
+h1 {
+  color: #333;
+}
+
+button,
+p,
+a {
+  font-size: 1rem;
+}
+
+.App {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 1em auto;
+}
+
+.column {
+  background-color: #f2f2f3;
+  border-radius: 0.25em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.item-container {
+  align-items: center;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: move;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 4fr 2fr;
+  justify-content: space-between;
+  padding: 1em 2em;
+  gap: 1em;
+  touch-action: none;
+}
+
+.item-button {
+  background-color: darkred;
+  border: transparent;
+  border-radius: 0.25em;
+  color: white;
+  cursor: pointer;
+  padding: 0.5em;
+}
